@@ -5,18 +5,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(255, 143, 220, 1) 0%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background-color: #ffffff;
 }
 
 .search-form {
   margin: 20px;
   text-align: center;
+  border-style: 1px;
 }
 
 .search-form input {
@@ -24,6 +19,8 @@ body {
   font-size: 28px;
   font-weight: 600;
   border-radius: 11px;
+  border-style: solid 1px;
+  border-color: grey;
 }
 
 .gallery {
@@ -53,7 +50,7 @@ body {
 
 .search-btn {
   appearance: none;
-  background-color: #ffffff;
+  background-color: #8fc2ff;
   border-radius: 40em;
   border-style: none;
 

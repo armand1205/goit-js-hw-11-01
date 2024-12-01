@@ -1,0 +1,94 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 143, 220, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.search-form {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-form input {
+  padding: 6px;
+  font-size: 28px;
+  font-weight: 600;
+  border-radius: 11px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.photo-card {
+  width: 23%;
+  box-sizing: border-box;
+  margin: 5px;
+  text-align: center;
+}
+
+.photo-card img {
+  width: 340px;
+  height: 200px;
+  -webkit-box-shadow: 10px 7px 14px 8px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 10px 7px 14px 8px rgba(0, 0, 0, 0.66);
+  box-shadow: 10px 7px 14px 8px rgba(0, 0, 0, 0.66);
+}
+
+.photo-card .info {
+  margin-top: 10px;
+}
+
+.search-btn {
+  appearance: none;
+  background-color: #ffffff;
+  border-radius: 40em;
+  border-style: none;
+
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+  margin-left: 10px;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.search-btn:hover {
+  background-color: #daacd6;
+  transform: scale(1.125);
+}
+
+.search-btn:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .search-btn {
+    font-size: 1.5rem;
+    padding: 0.75rem 2rem;
+  }
+}
